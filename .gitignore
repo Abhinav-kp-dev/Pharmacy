@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment files (IMPORTANT: Never commit these!)
+.env
+.env.local
+.env.*.local
+backend/.env
+.env.example
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.pem
+.cache/
+.eslintcache
+.turbo/
+
+# Local development
+.env.development.local
+.env.test.local
+.DS_Store
+
+# Package manager lockfiles (optional - decide based on your workflow)
+# package-lock.json
+# yarn.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
